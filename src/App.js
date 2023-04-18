@@ -19,6 +19,8 @@ function App() {
   return (
      <>
      
+
+     
       <BrowserRouter>
       <Navbar/>
       {isLoggedIn ? (<button onClick={logOut}>Logout</button>):(<button onClick={logIn}>Login</button>)}
